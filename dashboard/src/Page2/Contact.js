@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 
 import './App.css';
 
+import '../src/Page1/App';
+
 import Navbar from '../components/Navbar';
 
 

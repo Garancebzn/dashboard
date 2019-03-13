@@ -1,26 +1,36 @@
-import React from 'react';
-import ResponsiveContainer from "react-responsive-widget";
+import React, { Component } from 'react';
+//import ResponsiveContainer from "react-responsive-widget";
+
+import './App.css';
 
 
-
-
-
-
-
-
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
-
-
       <div className="App">
- <ResponsiveContainer>
-                <div className="app-row">
-                    <div className="app-col-xs-12 app-col-md-4">.app-col-xs-12 .app-col-md-4</div>
-                    <div className="app-col-xs-12 app-col-md-4">.app-col-xs-12 .app-col-md-4</div>
-                    <div className="app-col-xs-12 app-col-md-4">.app-col-xs-12 .app-col-md-4</div>
-                </div>
-            </ResponsiveContainer>
+        <div className="row">
+          <div className="col-xs-6 col-md-3">
+           <div>TOP 5</div>
+          </div>
+          <div className="col-xs-6 col-md-3">
+            <div>Graph like sur 1 titre</div>
+          </div>
+          <div className="col-xs-6 col-md-3">
+           <div>Genres les + écoutés</div>
+          </div>
+          <div className="col-xs-6 col-md-3">
+            <div>Horloge</div>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-xs-6 col-md-3">
+           <div>Le titre le + écouté avec la photo</div>
+          </div>
+          <div className="col-xs-6 col-md-3">
+            <div>Graph artistes les + follow</div>
+          </div>
+        </div>
 
       </div>
      

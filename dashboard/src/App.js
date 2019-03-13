@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 
 import './App.css';
 
+import SimpleTimeseries from './components/SimpleTimeseries';
+
 
 class App extends Component {
   render() {
@@ -11,6 +13,8 @@ class App extends Component {
         <div className="row">
           <div className="col-xs-6 col-md-3">
            <div>TOP 5</div>
+    <SimpleTimeseries/>
+
           </div>
           <div className="col-xs-6 col-md-3">
             <div>Graph like sur 1 titre</div>

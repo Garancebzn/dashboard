@@ -3,13 +3,20 @@ import React, { Component } from 'react';
 
 import './App.css';
 
-import SimpleTimeseries from './components/SimpleTimeseries';
+import SimpleTimeseries from '../components/SimpleTimeseries';
+import Navbar from '../components/Navbar';
+import '../Page2/Contact';
 
 
 class App extends Component {
   render() {
     return (
+
+      
+
       <div className="App">
+      <Navbar/>
+     
         <div className="row">
           <div className="col-xs-6 col-md-3">
            <div>TOP 5</div>
